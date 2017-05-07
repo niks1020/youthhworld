@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Visisting Card App</title>
+	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+<h2 id="form-controls">Visiting Card App</h2>
+<form action="pdf/card.php" method ="POST">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Name / Company Name</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Name to whome the card belongs." required name="name">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter Email</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Name to whome the card belongs." required name="email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Designation / Tag Line</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter designation / tagline depending on the type of card." required name="designation">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Contact number 1</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Your contact number." required name="contact1">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Contact Number 2</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your second contact number if any." name="contact2">
+    
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Address:</label>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Building</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" required name="building">
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Street</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" required name="street" >
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">City</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp"  required name="city">
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">State</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" required name="state">
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Country</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" required name="country">
+	</div>
+	<div class="form-group">
+    <label for="exampleInputEmail1">Pin Code</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" required name="pincode">
+	</div>
+  </div>
+  
+  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
