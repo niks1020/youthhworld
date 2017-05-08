@@ -12,3 +12,7 @@ You can find an article about this here - <a>http://youthhworld.blogspot.com/201
 <br/><b>Note: To use this project from my repository - you must download MPDF module folder from <a href ="https://github.com/mpdf/mpdf/tree/v6.0.0"> here </a> and paste it inside pdf folder.
 So the directory of mpdf.php file will be visitingCardOEP/pdf/mpdf/mpdf.php</b>
 
+# Servlet Cart
+
+This is a shopping cart tutorial project built using Java-Servlets. It shows the use of session in servlet for very simple cart apps. <br/>Article for this project is <a href="http://youthhworld.blogspot.com/2016/09/shopping-cart-application-servlet.html">here</a>
+
