@@ -1,0 +1,32 @@
+[
+	{
+		"firstName": "Shashi",
+		"lastName": "H",
+		"occupation": "Java Dev",
+		"city": "Banglore" 
+	},
+	{
+		"firstName": "Shruti",
+		"lastName": "T",
+		"occupation": "Bio",
+		"city": "Ahmedabad" 
+	},
+	{
+		"firstName": "Shan",
+		"lastName": "Gupta",
+		"occupation": "Student",
+		"city": "Pune" 
+	},
+	{
+		"firstName": "Rijay",
+		"lastName": "Doshi",
+		"occupation": "Electrical engineer",
+		"city": "Bangkok" 
+	},
+	{
+		"firstName": "Deepika",
+		"lastName": "Pandit",
+		"occupation": "Finance manager",
+		"city": "Ahmedabad" 
+	}
+]
