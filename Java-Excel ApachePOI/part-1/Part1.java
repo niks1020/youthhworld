@@ -65,6 +65,16 @@ public class Part1 {
 			}
 		}
 		
+		sheet.addMergedRegion(new CellRangeAddress(5,10,6,11));
+		
+		row = (sheet.getRow(5)==null)?(sheet.createRow(5)):(sheet.getRow(5));
+		cell = (row.getCell(6)==null)?(row.createCell(6)):(row.getCell(6));
+		
+		cell.setCellValue("THIS IS MERGERD REGION");
+		
+		//=====CODE FOR AUTOSIZING COLUMNS=====
+		for(int i=0; i< myHeaders.length; i++)
+			sheet.autoSizeColumn(i);
 		FileOutputStream fileOut = new FileOutputStream("BlogDemo.xlsx");
 		wb.write(fileOut);
 		fileOut.close();
